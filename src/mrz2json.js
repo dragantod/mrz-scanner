@@ -30,7 +30,7 @@ var Q=require('q');
 
 var program=require('commander');
 
-program.version('1.2.0')
+program.version('1.2.1')
 .usage('[options] <file...>')
 .option('-d, --dest-dir <path>')
 
