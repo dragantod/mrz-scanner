@@ -26,7 +26,7 @@ const IJS = require('image-js').Image;
 const { parse } = require('./mrz-relax');
 
 module.exports = function(options) {
-  const { getMrz, readMrz } = require('mrz-detection')({fs: options.fs});
+  const { getMrz, readMrz } = require('mrz-detection');
   return async function detectAndParseMrz(image, result, progress) {
     result = result || {};
 
